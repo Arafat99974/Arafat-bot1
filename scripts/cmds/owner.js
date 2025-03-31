@@ -18,23 +18,23 @@ config: {
   api.setMessageReaction('😍', event.messageID, (err) => {}, true);
   try {
     const ShanInfo = {
-      name: '(╹◡╹)𝑬𝒘𝑹彡S𝓱ₐ𝚗(◍•ᴗ•◍)Ψ',
-      nick: '𝗦𝗵𝗔𝗻',
+      name: '(╹◡╹)𝐀𝐫𝐚𝐟𝐚𝐭(◍•ᴗ•◍)',
+      nick: '𝐀𝐑𝐀𝐅𝐀𝐓 (𝐨𝐭𝐚𝐤𝐮)',
       gender: '𝑴𝒂𝑳𝒆',
-      birthday: '10-𝟎𝟕-𝟐𝟎𝟎5',
-      age:'19',
-      Status: 'আমি বললুম না আমার শরম করে😝🤭',
-      hobby: '𝑺𝒍𝒆𝒆𝑷𝒊𝒏𝑮',
+      birthday: '23-11-𝟐𝟎𝟎7',
+      age:'17+',
+      Status: '𝐒𝐢ñ𝐠𝐥𝐞 𝐁𝐮𝐭 𝐂𝐫𝐮𝐬𝐡 𝐀𝐜𝐡𝐚 ✨',
+      hobby: '𝐍𝐚𝐦𝐚𝐳',
       religion: '𝙄𝒔𝒍𝑨𝒎',
       height: '5"3',
-      Fb: 'https://www.facebook.com/sirana252',
-      messenger: 'https://m.me/sirana252',
-      authorNumber: 'এইটা পার্সোনাল',
-      insta: 'https://www.instagram.com/sirana252',
-      tg: 'https://t.me/si_rana252',
+      Fb: 'https://www.facebook.com/Arafatas602',
+      messenger: 'https://m.me/Arafatas602',
+      authorNumber: '+8801878266244',
+      insta: 'https://www.instagram.com/Iam_Arafat_602',
+      tg: 'Arafatas602@gmail.com',
       capcut: 'কোনো আইড়ি নাই , Alight motion ব্যবহার করি।',
       tiktok: 'আমি প্রতিবন্ধী না 🙂',
-      youtube: 'নিজের কোনো চ্যানেল নাই ☺️, এমনিতেই কারো YouTube premium লাগলে ইনবক্স করিও?',
+      youtube: 'নিজের কোনো চ্যানেল নাই',
     };
     const now = moment().tz('Asia/Jakarta');
     const date = now.format('MMMM Do YYYY');
@@ -78,13 +78,13 @@ config: {
 \😶彡𝐵𝑖𝑟𝑡ℎ𝑑𝑎𝑦 : ${ShanInfo.birthday}
 \📝彡𝐴𝑔𝑒  : ${ShanInfo.age}
 \💕彡𝑅𝑒𝑙𝑎𝑡𝑖𝑜𝑛𝑆ℎ𝑖𝑝 : ${ShanInfo.Status}
-\🐸彡𝐻𝑜𝑏𝑏𝑦 : ${ShanInfo.hobby}
+\🙂彡𝐻𝑜𝑏𝑏𝑦 : ${ShanInfo.hobby}
 \🕋彡𝑅𝑒𝑙𝑖𝑔𝑖𝑜𝑛 : ${ShanInfo.religion}
 \🙎🏻‍♂️彡𝐻𝑖𝑔ℎ𝑡 : ${ShanInfo.hight}
 \🌍彡𝐹𝑎𝑐𝑒𝑏𝑜𝑜𝑘 𝐿𝑖𝑛𝑘 : ${ShanInfo.Fb}
 \🌐彡𝑊𝑝 : ${ShanInfo.authorNumber}
 \🔖彡𝐼𝑛𝑠𝑡𝑎𝑔𝑟𝑎𝑚 : ${ShanInfo.insta}
-\🏷彡️𝑇𝑒𝑙𝑒𝑔𝑟𝑎𝑚 : ${ShanInfo.tg}
+\🏷彡️Gmail : ${ShanInfo.tg}
 \☠彡️𝐶𝑎𝑝𝐶𝑢𝑡 : ${ShanInfo.capcut}
 \🤡彡𝑇𝑖𝑘𝑇𝑜𝑘 : ${ShanInfo.tiktok}
 \🤐彡𝑌𝑜𝑢𝑇𝑢𝑏𝑒 : ${ShanInfo.youtube}
