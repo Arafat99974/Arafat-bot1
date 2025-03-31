@@ -18,14 +18,14 @@ module.exports = {
 
     onStart: async function ({ api, event, args, message }) {
         if (args.length === 0) {
-            return message.reply("❌ | Please provide a sing name janu.");
+            return message.reply("❌ | দেখ তোর বানান ভুল 🤦🏻.");
         }
 
         try {
             const query = encodeURIComponent(args.join(" "));
             const apiUrl = `${await baseApiUrl()}/sing?query=${query}`;
 
-            message.reply("𝐖𝐚𝐢𝐭 𝐤𝐨𝐫𝐨 𝐣𝐚𝐧 <😘");
+            message.reply("আরাফাত দিতে না করছে তাও দিচ্ছি দাড়াও <😘");
 
             const response = await axios.get(apiUrl, {
                 responseType: "stream",
